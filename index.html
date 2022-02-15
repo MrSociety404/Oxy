@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oxy The Dog</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <section class="score">
+      <h2 class="score__level">Niveau #1</h2>
+      <div>
+        <span class="score__score">0000</span>
+        <span class="score__bestscore">0000</span>
+      </div>
+    </section>
+    <section class="start" id="start">
+      <div class="start__box">
+        <h1 class="start__title">OXY RUN GAME</h1>
+        <span class="start__desc">The dog who run faster than your car !</span>
+      </div>
+      <button class="start__button" id="start__btn">
+        START
+      </button>
+      <footer class="start__footer">
+        Created by <a href="https://fabricecst.com/">Fabrice Cst</a>
+      </footer>
+    </section>
+    <section class="start hide" id="gameOver">
+      <div class="start__box">
+        <h1 class="start__title">GAME OVER</h1>
+        <span class="start__desc">Do better next time !</span>
+      </div>
+      <button class="start__button" id="gameOver__btn">
+        restart
+      </button>
+      <footer class="start__footer">
+        Created by <a href="https://fabricecst.com/">Fabrice Cst</a>
+      </footer>
+    </section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
